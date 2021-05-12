@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>IMC</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+<script src="script.js"></script>
+  </head>
+  <body>
+      <div class="container">
+        <div class="title"> Calculadora - IMC </div>
+        <div class="input">
+            <label>Nome:</label>
+            <input type="text" id='nome'>
+        </div>
+        <div class="input">
+            <label>Altura:</label>
+            <input type="number" id='altura'>
+        </div>
+        <div class="input">
+            <label>Peso:</label>
+            <input type="number" id='peso'>
+        </div>
+        <button id='calcular' onClick="imc()">Calcular</button>
+
+        <div class="result" id='resultado'></div>
+    <address style="color:#00bfff;">Desenvolvido por: Daniel Melo</address>
+    </div>
+  </body>
+</html>
